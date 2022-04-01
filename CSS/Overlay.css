@@ -1,6 +1,5 @@
-body {
+body {  /* Applique l'image : "Fond_All_Pages" en tant que background*/
     background-image: url(../Images/Fond_All_Pages.jpg);
-    background-size: contain;
 }
 
 *{
@@ -10,26 +9,73 @@ body {
 }
 
 nav {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
-    background-color: white;
+    background: linear-gradient(to right, darkcyan, darkblue);  /* Permet d'avoir un dégradée allant de la gauche vers la droites dans la bare de navigation */ 
+    opacity: 70%;
     position: sticky;
     top: 0px;
+    border-radius: 20px;    /* Bordures rondes */
 }
 
 nav ul {
-    list-style-type: none; /* Suppresion des puces  */
+    list-style-type: none;  /* Suppresion des puces des listes  */
 }
 
 nav ul li {
     float: left;
     width: 25%;
     text-align: center;
+    position: relative; /* Permet de réalignée les sous section avec leurs section */
 }
 
 nav ul::after {
-
+    content: "";
+    display: table;
+    clear: both;
 }
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {   /* Permet d'avoire un surlignage en dessous des éléments du menu déroulant quand la souris le survole */
+    border-bottom: 2px solid cyan; /* Ajout de la bordure + couleur + épèseur + type */
+    border-radius: 20px;    /* Bordures rondes */
+}
+
+.sous {
+    display: none;  /* Permet de ne pas voire la sous section du menu déroulant de base */
+    box-shadow: 0px 1px 2px #CCC; /* Permet de donner de l'ombre aux contoure de la "box" */
+    background-color: transparent;  /* Aplique un effet de transparance au fond */
+    border-radius: 20px;    /* Bordure rondes */
+    width: 100%;
+    z-index: 1000;  /* Permet de ne pas ampiéter sur le contenue de la page */
+}
+
+nav > ul li:hover .sous {   /* Permet de montrée les sous section du menu déroulant quand la souris le survole */
+    display: block;
+}
+
+.sous li {  /* Permet d'alignée les sous section l'une en dessous de l'autre + centrée le texte */
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.sous a:hover { /* Permet d'avoir un fond légèrement plus claire quand survolée */
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after { /* Permet d'avoir une petite flèche pour indiquer à l'utilisateur que le menu est belle et bien déroulant */
+    content: " ▼";
+    font-size: 12px;
+}
+
 
 
 

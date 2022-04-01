@@ -12,30 +12,33 @@ Creation
 - Log-in
 - Log-out
 - Dark-Mode
-- Section Biomes
-    - Safe Shallows	
-    - Kelp Forest	
-    - Kelp Forest Caves
-    - Grassy Plateaus	
-    - Grassy Plateau Caves	
-    - Mushroom Forest	
-    - Bulb Zone	
-    - Bulb Zone Caves	
-    - Jellyshroom Caves	
-    - Sparse Reef	
-    - Grand Reef	
-    - Dunes	
-    - Mountains
-    - Mountain Range Caves	
-    - Deep Grand Reef	
-    - Blood Kelp Zone	
-    - Underwater Islands	
-    - Grand Reef Thermal Vents
-    - Inactive Lava Zone	
-    - Floater Islands	
-    - Large Mushroom Tree	
-    - Lost River	
-    - Active Lava Zone/Lakes	
+- Section Biomes :
+    - 1) Safe Shallows /* OK */	
+    - 2) Kelp Forest	/* OK */	
+    - 3) Kelp Forest Caves
+    - 4) Grassy Plateaus	/* OK */	
+    - 5) Grassy Plateau Caves	
+    - 6) Mushroom Forest	/* OK */	
+    - 7) Bulb Zone  /* OK */		
+    - 8) Bulb Zone Caves	
+    - 9) Jellyshroom Caves	
+    - 10) Sparse Reef	/* OK */	
+    - 11) Grand Reef	/* OK */	
+    - 12) Dunes /* OK */	
+    - 13) Mountains /* OK */	
+    - 14) Mountain Range Caves	
+    - 15) Deep Grand Reef	
+    - 16) Blood Kelp Zone	/* OK */	
+    - 17) Underwater Islands    /* OK */	
+    - 18) Grand Reef Thermal Vents
+    - 19) Inactive Lava Zone	
+    - 20) Floater Islands	
+    - 21) Large Mushroom Tree	
+    - 22) Lost River	
+    - 23) Active Lava Zone/Lakes	
+    - 24) Crash Zone /* OK */	
+    - 25) Sea treader's Path /* OK */	
+    - 26) Crag Field /* OK */	
 
 - Creatures
     - Carnivores : 
@@ -82,7 +85,7 @@ Creation
         - Spadefish
         - Spinefish
 
-    - Scavengers and Parasites
+    - Scavengers and Parasites :
         - Amoeboid
         - Floater
         - Laval Larva
@@ -92,7 +95,7 @@ Creation
         - Shuttlebug
         - Rockgrub
 
-    - Extinct species
+    - Extinct species :
         - Peeper Alpha
         - Espèces Alpha Ray	
         - Ancien squelette
@@ -101,20 +104,20 @@ Creation
     
 
 - Lore
-    - LandPod
+    - LandPod :
         - 
         - 
         - 
         - 
         - 
-    - PDA
+    - PDA :
         - 
         - 
         - 
         - 
         - 
         - 
-    - Autre
+    - Other :
         - 
         - 
         - 
