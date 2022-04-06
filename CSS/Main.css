@@ -1,0 +1,11 @@
+.Main-Background {
+    width: 75%;
+    height: 95%;
+    left: 12.5%;
+    position: absolute;
+    background-color: #1a1b1d;
+    opacity: 85%;
+    border-radius: 50px;
+    padding-top: 8px;
+    top: 15px;
+}
