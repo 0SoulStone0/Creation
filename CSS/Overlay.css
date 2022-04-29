@@ -48,6 +48,12 @@ nav a:hover {   /* Permet d'avoire un surlignage en dessous des éléments du me
     border-radius: 20px;    /* Bordures rondes */
 }
 
+/* li {
+    background: linear-gradient(to right, darkcyan, darkblue);
+    border-radius: 20px;
+}
+*/
+
 .sous {
     display: none;  /* Permet de ne pas voire la sous section du menu déroulant de base */
     box-shadow: 0px 1px 2px #CCC; /* Permet de donner de l'ombre aux contoure de la "box" */
@@ -60,6 +66,7 @@ nav a:hover {   /* Permet d'avoire un surlignage en dessous des éléments du me
 nav > ul li:hover .sous {   /* Permet de montrée les sous section du menu déroulant quand la souris le survole */
     display: block;
 }
+
 
 .sous li {  /* Permet d'alignée les sous section l'une en dessous de l'autre + centrée le texte */
     float: none;
