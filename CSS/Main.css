@@ -27,11 +27,17 @@
 
 .Dispo-Logo-Link {
     text-align: center;
-    height: 100px;
-    border: 10px dotted blue;
 }
 
 .Icon-Subnautica {
     width: 80px;
     height: 60px;
+}
+
+.Dificulty-LV-Text {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(153, 28, 28);
+    font-family: fantasy;
+    font-style: italic;
 }
