@@ -37,7 +37,31 @@
 .Dificulty-LV-Text {
     text-align: center;
     font-size: 85px;
-    color: rgb(153, 28, 28);
+    color: rgb(250, 185, 7);
+    font-family: fantasy;
+    font-style: italic;
+}
+
+#Dificulty-LV-Text {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(189, 37, 37);
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.Biomes-Title {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(250, 185, 7);
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.Mobs-Carnivores-Text {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(189, 37, 37);
     font-family: fantasy;
     font-style: italic;
 }
