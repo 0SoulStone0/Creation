@@ -28,6 +28,7 @@
 .Dispo-Logo-Link {
     text-align: center;
     height: 100px;
+    border: 10px dotted blue;
 }
 
 .Icon-Subnautica {
