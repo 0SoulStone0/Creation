@@ -65,3 +65,27 @@
     font-family: fantasy;
     font-style: italic;
 }
+
+.Dispo-Mobs {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+table{
+    table-layout: fixed;
+    width:100%;
+}
+
+table, td, tr{
+  
+    border:2px solid rgb(87, 22, 238);
+}
+
+.Images-Biomes {
+    width: 100%;
+}
+
+.Images-Mobs {
+    width: 100%;
+}

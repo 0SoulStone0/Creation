@@ -47,7 +47,7 @@ Creation
 
 - Creatures
     - Carnivores : 
-        - Ampeel
+        - Ampeel 
         - Crabsquid
         - Mesmer
         - Sea Dragon
