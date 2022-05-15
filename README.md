@@ -87,11 +87,10 @@ Creation
         - Ghostray
         - Reefback
         - Reginald
-        - Spadefish
-        - Spinefish
 
     - Scavengers and Parasites :
         - Amoeboid
+        - Ancient Floater
         - Floater
         - Laval Larva
         - Cave Crawler

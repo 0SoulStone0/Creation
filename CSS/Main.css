@@ -66,11 +66,35 @@
     font-style: italic;
 }
 
+.Mobs-Herbivores-Text {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(43, 199, 50);
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.Mobs-Scavengers-and-Parasites-Text {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(170, 13, 209);
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.Mobs-Extinct-Species-Text {
+    text-align: center;
+    font-size: 85px;
+    color: rgb(170, 13, 209);
+    font-family: fantasy;
+    font-style: italic;
+}
+
 .Dispo-Mobs {
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
 }
-
 
 table{
     table-layout: fixed;
@@ -87,5 +111,5 @@ table, td, tr{
 }
 
 .Images-Mobs {
-    width: 100%;
+    width: 20%;
 }
