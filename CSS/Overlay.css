@@ -83,14 +83,6 @@ nav > ul li:hover .sous {   /* Permet de montrée les sous section du menu déro
     font-size: 12px;
 }
 
-#asup {
-    display: none;
-    text-decoration: none;
-    color: none;
-    border-bottom: none;
-    padding: none;
-}
-
 #creators {
     text-align: center;
 }
